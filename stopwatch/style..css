@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body{
+    background: black;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background-color: azure;
+    height: fit-content;
+    width: fit-content;
+    padding: 50px;
+    border-radius: 60px 10px 60px 10px;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+.title{
+    color: darkblue;
+    text-align: center;
+    font-family: cursive;
+    font-weight: 600;
+}
+.btn{
+    background-color: greenyellow;
+    padding: 10px;
+    margin-top: 7px;
+    margin-right: 20px;
+    border-radius: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+.box:hover{
+
+    transform: scale(1.1);
+    box-shadow: 0 7px 200px plum;
+}
+.btn:hover{
+    font-weight: 1000;
+    border: black solid;
+    transition: 1s;
+    transform: scale(1.1);
+    box-shadow: 0 4px 100px red;
+}
+
+/* Lap styling */
+#laps {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+#laps li {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: darkblue;
+    font-weight: bold;
+    text-align: center;
+    transition: all 0.4s ease;  /* Smooth transition for hover */
+}
+
+#laps li:hover {
+    background-color: lightgreen;
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+#lapBtn{
+    background-color: greenyellow;
+    padding: 10px;
+    margin-top: 7px;
+    margin-right: 20px;
+    border-radius: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+#lapBtn:hover{
+    font-weight: 1000;
+    border: black solid;
+    transition: 1s;
+    transform: scale(1.1);
+    box-shadow: 0 4px 100px red;
+}
+ul li.appear {
+    opacity: 1;
+    transform: translateY(0);
+}

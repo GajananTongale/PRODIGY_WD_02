@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style..css">
+</head>
+<body>
+<div class="box">
+    <h2 class="title">Stopwatch</h2>
+    <h1 id="stopwatch">00:00:00</h1>
+    <button onclick="start()" class="btn">Start</button>
+    <button class="btn" onclick="stop()">Stop</button>
+    <button class="btn" onclick="reset()">Reset</button>
+    <!-- Move the LAP button here -->
+    <button id="lapsBtn" onclick="lap()" class="btn">LAP</button>
+    <div>
+        <ul id="laps"></ul>
+    </div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
